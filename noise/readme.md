@@ -131,4 +131,32 @@ Example:
 | **δ (delta)**   | ↑        | ↓ Privacy for Gaussian only  |
 | **Sensitivity** | ↑        | ↓ SNR (↑ noise), ↑ privacy   |
 
+# Interactive-style 3D surface plots
+🔷 Left: Laplace SNR Surface
+High epsilon (towards the front right) leads to very high SNR, meaning weaker privacy.
+
+High sensitivity (toward the back) reduces SNR — more noise for the same ε.
+
+🔶 Right: Gaussian SNR Surface
+More curved and sensitive to both ε and sensitivity.
+
+Because of the δ component, Gaussian noise grows faster with sensitivity than Laplace.
+
+✅ Takeaways
+Laplace is more sensitive to ε and less to δ (which it doesn’t even use).
+
+Gaussian requires careful δ tuning and is more useful when you need composability or approximate DP.
+
+Use these plots to decide the optimal ε/sensitivity pair to balance privacy budget and data utility.
+
+![noise_3d_surface_plots](noise_3d_surface_plots.png)
+
+![noise_interactive_00_00](noise_interactive_00_00.png)
+
+![noise_interactive_00_01](noise_interactive_00_01.png)
+
+![noise_interactive_00_02](noise_interactive_00_02.png)
+
+
+
 
