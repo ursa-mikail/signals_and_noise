@@ -29,13 +29,15 @@ Noise ~ N(0, σ²), where
 σ ≥ √(2 * log(1.25/δ)) * Δf / ε
 
 > Δf depends on the query.
+
 > Count queries: Δf = 1
+
 > Sum queries: Δf = max possible value
+
 > Mean: Δf = (max - min) / n
 
-n
 
-🎯 3. Evaluating Signal-to-Noise Ratio (SNR) for Privacy
+## 🎯 3. Evaluating Signal-to-Noise Ratio (SNR) for Privacy
 SNR Formula:
 $$\ \frac{Var(signal)}{Var(noise)} \$$
 
