@@ -69,6 +69,9 @@ $$\ \frac{Var(signal)}{Var(noise)} \$$
 - Generate sample outputs with and without noise.
 - Measure how distinguishable the outputs are.
 
+
+![tune_e_d_sensitivity](tune_e_d_sensitivity.png)
+
 <hr>
 
 🧪 Example
