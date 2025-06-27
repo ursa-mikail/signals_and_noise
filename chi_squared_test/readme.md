@@ -27,30 +27,12 @@ The test FAILS (Indicates poor randomness) when:
 
 ## Key Features of the Code
 
-Multiple test examples showing good, biased, and poor random numbers
-Visual interpretation with histograms comparing observed vs expected frequencies
-Detailed explanations of why each test passes or fails
-Flexible parameters (bins, significance level)
-Statistical interpretation with p-values and critical values
+Multiple test examples showing good, biased, and poor random numbers Visual interpretation with histograms comparing observed vs expected frequencies Detailed explanations of why each test passes or fails Flexible parameters (bins, significance level) Statistical interpretation with p-values and critical values
 
 The code will show when and why random numbers fail the uniformity test, helping you identify issues with random number generation or data quality.
 
-"""
-Custom Test: 10 Random Numbers from Uniform(1,100)
-Chi-square statistic: 16.0000
-Critical value: 16.9190
-p-value: 0.0669
-Degrees of freedom: 9
 
-Result: PASSES - Data appears uniformly distributed
-Reason: Chi-square = 16.0000 < Critical value = 16.9190
-Statistical meaning: p-value = 0.0669 > α = 0.05, fail to reject H₀
-
-Observed frequencies: [2 0 0 0 0 2 0 1 1 4]
-Expected frequency per bin: 1.00
-
-![chi_squared_test_00](chi_squared_test_00.png)
-
+```
 CHI-SQUARE TEST FOR UNIFORMITY
 ========================================
 
@@ -98,4 +80,4 @@ Observed frequencies: [276 264 260  33  35  29  26  29  22  26]
 Expected frequency per bin: 100.00
 
 ![chi_squared_test_03](chi_squared_test_03.png)
-"""
+```
